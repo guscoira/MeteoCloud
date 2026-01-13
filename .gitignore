@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Arduino build artifacts
+.build/
+build/
+*.elf
+*.eep
+*.hex
+*.bin
+
+# PlatformIO
+.pio/
+.vscode/
+
+# IDE files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# User configuration (contains credentials)
+config.h
